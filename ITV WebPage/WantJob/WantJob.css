@@ -1,0 +1,77 @@
+h1{
+    color: whitesmoke;
+}
+div{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  #jobseekers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #jobseekers td, #jobseekers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #jobseekers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #jobseekers tr:hover {background-color: #ddd;}
+  
+  #jobseekers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+  }
+  .btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+  }
+  
+  
+  .info {background-color: green;} 
+  .info:hover {background: green;}
+
+  .reject {background-color: red;} 
+  .reject:hover {background: red;}
+  
+
+  .sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../3.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    text-align: center;
+    color:white;
+}
+  
